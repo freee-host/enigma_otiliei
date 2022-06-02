@@ -1,0 +1,390 @@
+/*                  CSS Document                      */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/*                    SITE COLORS                     //                  
+		WHITE - #FFFFFF
+		BLACK - #000000
+		TAN   - #CEC495
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/*                   Standard Tags                    */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+body {
+	background-color:#000000;
+	background-image:url(../images/FDBack.jpg);
+	background-repeat:repeat-x;
+	text-align:center;
+	color:#000000;
+	margin:0px;
+	padding:0px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:0.80em;
+}
+a {
+	color:#000000;
+	border-bottom:1px dotted #000000;
+	text-decoration:none;
+	font-weight:bold;
+}
+a:hover {
+	text-decoration:underline;
+	border-bottom:none;
+}
+
+address, abbr, img { font-style:normal; border:none; }
+#container {
+	width:800px;
+	margin:auto;
+	background-color:#CEC495;
+	background-image:url(../images/header_bg.jpg);
+	background-repeat:no-repeat;
+	background-position:0px -2px;
+	text-align:left;
+}
+#header {
+	text-align:center;
+	border-bottom:1px solid #000000;
+	padding:8px;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/*                Primay Navigation                   */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+.navbar {
+	background-color:#000000;
+	width:800px;
+	height:30px;
+	margin-top:3px;
+	margin-bottom:3px;
+	text-align:center;
+}
+.navbar ul {
+	margin:0px; 
+	width:800px;
+	padding-top:6px;
+	text-align:center;
+}
+html>body .navbar ul {
+	margin-left:-35px;
+}
+.navbar ul li{
+	display:inline;
+	color:#FFFFFF;
+	margin-left:35px;
+	margin-right:35px;
+	text-align:center;
+}
+.navbar a, .navbar a:link, .navbar a:visited, .navbar a:active {
+	color:#CEC495;
+	font-size:1.1em;
+	font-weight:bold;
+	text-decoration:none;
+}
+.navbar a:hover {
+	text-decoration:underline;
+}
+#footer .navbar a {
+	font-size:0.9em;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/*                   Main Content                     */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+#content {
+	border-top:1px solid #000000;
+	border-bottom:1px solid #000000;
+	margin:0px;
+	padding:10px;
+	text-align:center;
+	background-image:url(../images/fd_content_bg.jpg);
+	background-repeat:repeat-y;
+}
+.bigcol {
+	width:425px;
+	float:left;
+	text-align:center;
+	padding:15px;
+	padding-top:0px;
+}
+.smallcol {
+	width:300px;
+	float:left;
+}
+p {
+	text-align:left;
+	line-height:1.3em;
+}
+.floater {
+	float:left;
+	width:190px;
+	text-align:left;
+	padding-left:15px;
+}
+.floater h2 {
+	font-size:1em;
+	text-transform:capitalize;
+}
+.floater ul li {
+	margin-left:-25px;
+	line-height:1.5em;
+}
+.hidden {
+	display:none;
+}
+h1 {
+	font-size:1em;
+}
+h2 {
+	font-size:1em;
+}
+.caption {
+	width: 375px;
+	line-height: 1.6em;
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/*                 Gallery Content                    */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+#gallerycontainer {
+	position:relative;
+	background-image:url(../images/search.gif);
+	background-position:360px 0px;
+	background-repeat:no-repeat;
+	width:575px;
+	float:left;
+	text-align:left;
+}
+#gallery{
+	width:395px;
+	float:left;
+	margin:auto;
+}
+#projectimage {
+	border:6px solid #000000;
+	margin-top:10px;
+	margin-bottom:10px;
+	position: relative;
+}
+.description {
+	background-image:url(../images/portfolio_header_bg.gif);
+	background-repeat:repeat-x;
+	line-height:31px;
+	color:#CEC495;
+	margin-top:0px;
+	padding:3px 5px 12px 12px;
+	font-size:1.4em;
+}
+#thumbnailcontainer{
+	float:left;
+	width:181px;
+}
+#thumbnailcontainer a, #thumbnailcontainer a:visited, #thumbnailcontainer a:hover, #thumbnailcontainer a:link {
+	text-decoration:none;
+	border:none;
+}
+.imgmargin { margin-left:14px; margin-right:8px; margin-bottom:12px; }
+.thumbdesign{ margin-top:12px; }
+html>body .thumbdesign { position:relative; left:-1px; }
+#thumbnails{
+	padding:0px;
+	margin:0px;
+	width:180px;
+	background-image:url(../images/dash_bg.gif);
+	background-repeat:repeat-y;
+	text-align:center;
+	height:385px;
+	overflow:hidden;
+	position:relative;
+}
+#thumbnails a img, #thumbnails a:visited img, #thumbnails a:link img, #thumbnails a:active img, #thumbnails a:hover img {
+	border:3px solid #000000;
+	margin:3px;
+}
+#thumbcolumn1 {
+	width:90px;
+	float:left;
+	position:relative;
+}
+#thumbcolumn2 {
+	width:90px;
+	float:left;
+	position:relative;
+}
+#thumbcolumn3 {
+	width:90px;
+	float:left;
+	position:absolute;
+	left:0px;
+}
+#thumbcolumn4 {
+	width:90px;
+	float:left;
+	position:absolute;
+	left:91px;
+}
+#printup, #printdown { margin-bottom:2px; float:right; margin-right:35px; clear:right; visibility:hidden; }
+#webup, #webdown { margin-top:2px; margin-bottom:6px; float:left; margin-left:35px; clear:left; visibility:hidden; }
+
+.url{ float:right; text-align:right; margin-left:10px; }
+.tools{ float:left; text-align:left; margin-right:10px; }
+.feature { border:none; }
+.feature img { margin-top:8px; margin-bottom: 8px; border:3px solid #000000; }
+.loaderbox {
+	width:389px;
+	/* height:281px; */
+	border:6px solid #000000;
+	background-color:#333333;
+	color: #CEC495;
+	font-size: 1.2em;
+	margin-top:10px;
+	margin-bottom:10px;
+	text-align:center;
+	padding-top: 130px;
+	padding-bottom: 130px;
+}
+#loadimg { 
+	width:389px;
+	border:6px solid #000000;
+	background-color:#333333;
+	color: #CEC495;
+	font-size: 1.2em;
+	margin-top:10px;
+	margin-bottom:10px;
+	text-align:center;
+	padding-top: 130px;
+	padding-bottom: 130px;
+	position: absolute; 
+	left: 0px;
+	top: 20px;
+	display: none;
+}	
+
+#imgholder { position: relative; }
+	
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/*                 Contact Content                    */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+.contactform{
+	width:780px;
+	background-image:url();
+	background-position:11px 0px;
+	background-repeat:no-repeat;
+	float:left;
+	text-align:left;
+}
+.contactform form {
+	margin-top:110px;
+	margin-left:20px;
+	margin-bottom:50px;
+	width:310px;
+	text-align:right;
+	float:left;
+}
+html>body .contactform form { margin-left:40px; }
+.inputfield {
+	background:none;
+	border:none;
+	border-bottom:1px solid #000000;
+}
+.subbtn {
+	background:none;
+	border:1px solid #000000;
+}
+.contactform textarea  {
+	position:relative;
+	background:none;
+	border:1px solid #000000;
+	padding:0px;
+	margin:0px;
+	margin-top:4px;
+	left:-8px;
+}
+html>body .contactform textarea  {
+	left:0px;
+}
+
+}
+.formsent {
+	margin-top:110px;
+	margin-left:20px;
+	margin-bottom:80px;
+	width:310px;
+	height:290px;
+	text-align:left;
+	float:left;
+}
+html>body .formsent { margin-left:40px; }
+#contactinfo{
+	float:left;
+	width:310px;
+	margin-top:110px;
+	margin-left:50px;
+	margin-bottom:80px;
+	font-size:1em;
+	line-height:1.3em;
+}
+#contactinfo .company {
+	font-size:1.1em;
+	line-height:1.3em;
+}
+.company {
+	font-weight:bold;
+}
+.error { font-size:1em; margin-left:12px; margin-right:20px; line-height:1.4em; }
+.error strong { color:#FF0000; }
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/*                     Site Map                       */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+#sitemap { width:540px; float:left; padding:10px; margin:0px; margin-right:15px; text-align:left; position:relative; }
+html>body #sitemap { padding:10px 10px 10px 40px; }
+#sitemap ul { list-style:none; width:180px; margin-top:40px; margin-bottom:40px; position:relative; z-index:500; }
+#sitemap ul li { margin-top:6px; margin-bottom:6px; list-style:none; width:180px; }
+#sitemap .imgtop { position:absolute; z-index:0; left:0px; top:0px; }
+#sitemap .imgbottom { position:absolute; z-index:0; left:0px; bottom:0px; }
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/*                      Footer                        */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+#footer {
+	padding-top:3px;
+	background-image:url(../images/footer_bg.jpg);
+	background-position:bottom;
+	background-repeat:no-repeat;
+}
+#footer .nav { margin-top:0px; }
+.copy {
+	margin:0px;
+	padding:6px;
+	text-align:right;
+	border-top:1px solid #000000;
+	padding-right:10px;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/*               Miscellaneous Fixes                  */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+
+.clearfix {
+	clear:both;
+}
+.border {
+	border:1px solid #000000;
+}
+.textleft {
+	text-align:left;
+}
+.textright {
+	text-align:right;
+}
+.center { text-align:center; }
+.left { float:left; }
+.right { float:right; }
